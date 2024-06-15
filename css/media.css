@@ -1,0 +1,142 @@
+@media all and (max-width: 575px) {
+
+    footer .items  {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    footer .item1 , footer .item2 , footer .item3{
+        width: 100%;
+        margin: 30px 0 ;
+    }
+    
+    #contact .cont{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #contact .cont .parent{
+        width: 100%;
+    }
+
+    #contact form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact .item{
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #contact form .item input{
+        width: 100%;
+    }
+
+    #contact form input{
+        width: 100%;
+    }
+
+    #contact form textarea{
+        width: 100%;
+    }
+
+    #gallery .image .column{
+        flex:  100%;
+        max-width: 100%;
+    }
+    
+    #chefs .items{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #chefs .card{
+        width: 100%;
+    }
+
+    #chefs .card .image1{
+        position: absolute;
+        top: 53%;
+        left: -9%;
+    }
+    
+    #chefs .card .image2{
+        position: absolute;
+        top: 55%;
+        left: 83%;
+        z-index: 1;
+    }
+
+    #home{
+        height: auto;
+    }
+
+    #home .item {
+        display: flex;
+        flex-direction: column;
+    }
+    #home .item .image{
+        width: 100%;
+    }
+        
+    #home .item .caption{
+        width: 100%;
+    }
+    
+
+
+    #navbar .item .mode .bar{
+        margin-left: 15px;
+        visibility: visible;
+    }
+
+    #navbar .item .mode .bar:hover + ul{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    #navbar ul{
+        position: absolute;
+        background-color: #1A1A1A;
+        width: 37%;
+        bottom: -174px;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #navbar ul li {
+        display: block;
+        margin: 18px 0;
+    }
+
+
+
+
+}
+
+
+@media all and (min-width: 576px) (max-width: 767px) {
+    
+
+    #chefs .items .card {
+        width: 50%;
+    }
+}
+@media all and (min-width: 768px) (max-width: 991px) {
+
+}
+@media all and (min-width: 992px) (max-width: 1199px) {
+      
+    
+}
+@media all and (min-width: 1200px) {
+
+}
